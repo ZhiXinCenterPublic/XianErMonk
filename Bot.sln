@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36665A78-4D93-48C7-B432-4DA46AA140D5}"
+	ProjectSection(SolutionItems) = preProject
+		commands.json = commands.json
+		debughost.cmd = debughost.cmd
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "messages", "messages", "{F4D9DF3B-F4E4-4E19-9053-3AF71A3189FA}"
+	ProjectSection(SolutionItems) = preProject
+		messages\BasicQnAMakerDialog.csx = messages\BasicQnAMakerDialog.csx
+		messages\function.json = messages\function.json
+		messages\project.json = messages\project.json
+		messages\project.lock.json = messages\project.lock.json
+		messages\run.csx = messages\run.csx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4D9DF3B-F4E4-4E19-9053-3AF71A3189FA} = {36665A78-4D93-48C7-B432-4DA46AA140D5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {784A00B0-C9C4-40CF-BACC-E017FCB972AF}
+	EndGlobalSection
+EndGlobal
